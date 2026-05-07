@@ -1,5 +1,5 @@
 # Taller 05 · Integración de Datos con CouchDB y Vite
-
+Integrantes: Alvaro Pacheco, Emilio Peña
 > **Universidad Técnica Particular de Loja (UTPL)**  
 > **Plataformas Web** · 2025-2026 · **Equipo 10**
 
