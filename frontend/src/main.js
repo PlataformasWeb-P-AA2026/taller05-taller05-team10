@@ -9,40 +9,31 @@ let tabla = null;
 function parsearValor(valor) {
   if (valor === "") return null;
   const numero = Number(valor);
-
-  if (!isNaN(numero)) {
-    return numero;
-  }
+  if (!isNaN(numero)) return numero;
   return valor;
 }
 
 async function cargarDatos(vista = "por_club", filtro = "") {
   try {
     let url = `${BASE_URL}${vista}`;
-
     const v = parsearValor(filtro);
 
     if (filtro !== "") {
       url += `?key=${encodeURIComponent(JSON.stringify(v))}`;
     }
-    console.log(url);
-    const respuesta = await fetch(url);
 
-    if (!respuesta.ok) {
-      throw new Error("Error al consumir la API");
-    }
+    const respuesta = await fetch(url);
+    if (!respuesta.ok) throw new Error("Error al consumir la API");
 
     const json = await respuesta.json();
 
-    const datos = json.rows.map(row => {
-      return {
-        criterio: row.key,
-        nombre: row.value.nombre,
-        seleccion: row.value.seleccion,
-        posicion: row.value.posicion,
-        edad: row.value.edad
-      };
-    });
+    const datos = json.rows.map(row => ({
+      criterio: row.key,
+      nombre: row.value.nombre ?? "",
+      seleccion: row.value.seleccion ?? "",
+      posicion: row.value.posicion ?? "",
+      edad: row.value.edad ?? ""
+    }));
 
     if (tabla) {
       tabla.destroy();
@@ -63,28 +54,22 @@ async function cargarDatos(vista = "por_club", filtro = "") {
         search: "Buscar:",
         lengthMenu: "Mostrar _MENU_ registros",
         info: "Mostrando _START_ a _END_ de _TOTAL_ registros",
-        paginate: {
-          previous: "Anterior",
-          next: "Siguiente"
-        }
+        paginate: { previous: "Anterior", next: "Siguiente" }
       }
     });
-
   } catch (error) {
     console.error(error);
   }
 }
 
-document.getElementById("vista").addEventListener("change", function() {
-  const vista = this.value;
+document.getElementById("vista").addEventListener("change", function () {
   document.getElementById("filtro").value = "";
-  cargarDatos(vista);
+  cargarDatos(this.value);
 });
 
-document.getElementById("filtro").addEventListener("keyup", function() {
-  const filtro = this.value.trim();
+document.getElementById("filtro").addEventListener("keyup", function () {
   const vista = document.getElementById("vista").value;
-  cargarDatos(vista, filtro);
+  cargarDatos(vista, this.value.trim());
 });
 
 cargarDatos();

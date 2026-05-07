@@ -1,20 +1,115 @@
+:root {
+  --utpl-azul: #003DA5;
+  --utpl-azul-oscuro: #002A75;
+  --utpl-amarillo: #FFD100;
+  --gris-claro: #f5f5f7;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 40px;
-  background-color: #f5f5f5;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: var(--gris-claro);
+  color: #1a1a1a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-#app {
+/* HEADER */
+.utpl-header {
+  background: var(--utpl-azul);
+  color: white;
+  padding: 1.8rem 1rem;
+  text-align: center;
+  border-bottom: 5px solid var(--utpl-amarillo);
+}
+
+.utpl-header h1 { font-size: 1.8rem; margin-bottom: 0.3rem; }
+.utpl-header p { color: var(--utpl-amarillo); font-size: 0.95rem; }
+
+/* CONTENIDO */
+.contenido {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.controles {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
   background: white;
-  padding: 24px;
-  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  border-left: 5px solid var(--utpl-amarillo);
 }
 
-h1 {
-  margin-bottom: 20px;
+.controles label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: var(--utpl-azul-oscuro);
 }
 
-.error {
-  color: red;
-  font-weight: bold;
+.controles select,
+.controles input {
+  padding: 0.5rem 0.75rem;
+  border: 2px solid var(--utpl-azul);
+  border-radius: 4px;
+  font-size: 0.95rem;
+  background: white;
 }
+
+.controles select:focus,
+.controles input:focus {
+  outline: none;
+  border-color: var(--utpl-amarillo);
+  box-shadow: 0 0 0 2px rgba(255, 209, 0, 0.3);
+}
+
+/* TABLA (DataTables) */
+#tabla-posts {
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+#tabla-posts thead th {
+  background: var(--utpl-azul) !important;
+  color: white !important;
+  border: none !important;
+}
+
+#tabla-posts tbody tr:hover {
+  background: #fff8d6 !important;
+}
+
+.dataTables_wrapper .dataTables_filter input,
+.dataTables_wrapper .dataTables_length select {
+  border: 1px solid var(--utpl-azul);
+  border-radius: 4px;
+  padding: 0.3rem 0.5rem;
+}
+
+.dataTables_wrapper .paginate_button.current {
+  background: var(--utpl-amarillo) !important;
+  color: var(--utpl-azul-oscuro) !important;
+  border: 1px solid var(--utpl-azul) !important;
+}
+
+/* FOOTER */
+.utpl-footer {
+  background: var(--utpl-azul-oscuro);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-top: 4px solid var(--utpl-amarillo);
+  margin-top: auto;
+}
+
+.utpl-footer strong { color: var(--utpl-amarillo); }

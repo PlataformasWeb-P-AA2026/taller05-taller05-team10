@@ -1,21 +1,41 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vite-jquery-datatable</title>
+    <title>Mundial 2026 · UTPL Taller 05</title>
   </head>
   <body>
-    <select id="vista">
-      <option value="por_club">Por club</option>
-      <option value="por_partidos">Por partidos</option>
-      <option value="por_goles">Por goles</option>
-    </select>
+    <header class="utpl-header">
+      <h1>⚽ Mundial 2026 · Jugadores</h1>
+      <p>Universidad Técnica Particular de Loja · Taller 05</p>
+    </header>
 
-    <input id="filtro" type="text" placeholder="Filtrar por criterio">
+    <main class="contenido">
+      <section class="controles">
+        <label>
+          Vista:
+          <select id="vista">
+            <option value="por_club">Por Club</option>
+            <option value="por_goles">Por Goles</option>
+            <option value="por_partidos">Por Partidos</option>
+          </select>
+        </label>
 
-    <table id="tabla-posts"></table>
+        <label>
+          Filtro:
+          <input id="filtro" type="text" placeholder="Filtrar por clave..." />
+        </label>
+      </section>
+
+      <table id="tabla-posts" class="display" style="width:100%"></table>
+    </main>
+
+    <footer class="utpl-footer">
+      <p><strong>UTPL</strong> · Plataformas Web · Taller 05 · Equipo 10</p>
+    </footer>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

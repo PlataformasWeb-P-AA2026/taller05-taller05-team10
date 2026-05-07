@@ -1,0 +1,1084 @@
+{
+  "docs": [
+    {
+      "nombre": "España_Jugador_0",
+      "seleccion": "España",
+      "posicion": "Portero",
+      "edad": 28,
+      "club": "Real Madrid",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "España_Jugador_1",
+      "seleccion": "España",
+      "posicion": "Portero",
+      "edad": 26,
+      "club": "Chelsea",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "España_Jugador_2",
+      "seleccion": "España",
+      "posicion": "Defensa",
+      "edad": 20,
+      "club": "Inter",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "España_Jugador_3",
+      "seleccion": "España",
+      "posicion": "Delantero",
+      "edad": 33,
+      "club": "Chelsea",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "España_Jugador_4",
+      "seleccion": "España",
+      "posicion": "Mediocampista",
+      "edad": 22,
+      "club": "PSG",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "España_Jugador_5",
+      "seleccion": "España",
+      "posicion": "Delantero",
+      "edad": 24,
+      "club": "Inter",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "España_Jugador_6",
+      "seleccion": "España",
+      "posicion": "Mediocampista",
+      "edad": 18,
+      "club": "PSG",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "España_Jugador_7",
+      "seleccion": "España",
+      "posicion": "Defensa",
+      "edad": 18,
+      "club": "Real Madrid",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "España_Jugador_8",
+      "seleccion": "España",
+      "posicion": "Defensa",
+      "edad": 21,
+      "club": "Barcelona",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "España_Jugador_9",
+      "seleccion": "España",
+      "posicion": "Delantero",
+      "edad": 26,
+      "club": "Barcelona",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Francia_Jugador_0",
+      "seleccion": "Francia",
+      "posicion": "Defensa",
+      "edad": 20,
+      "club": "Chelsea",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Francia_Jugador_1",
+      "seleccion": "Francia",
+      "posicion": "Delantero",
+      "edad": 34,
+      "club": "Real Madrid",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Francia_Jugador_2",
+      "seleccion": "Francia",
+      "posicion": "Delantero",
+      "edad": 21,
+      "club": "Bayern",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Francia_Jugador_3",
+      "seleccion": "Francia",
+      "posicion": "Delantero",
+      "edad": 18,
+      "club": "Real Madrid",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Francia_Jugador_4",
+      "seleccion": "Francia",
+      "posicion": "Portero",
+      "edad": 32,
+      "club": "Inter",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Francia_Jugador_5",
+      "seleccion": "Francia",
+      "posicion": "Delantero",
+      "edad": 31,
+      "club": "Barcelona",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Francia_Jugador_6",
+      "seleccion": "Francia",
+      "posicion": "Defensa",
+      "edad": 32,
+      "club": "PSG",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Francia_Jugador_7",
+      "seleccion": "Francia",
+      "posicion": "Delantero",
+      "edad": 22,
+      "club": "Chelsea",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Francia_Jugador_8",
+      "seleccion": "Francia",
+      "posicion": "Defensa",
+      "edad": 26,
+      "club": "Real Madrid",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Francia_Jugador_9",
+      "seleccion": "Francia",
+      "posicion": "Defensa",
+      "edad": 34,
+      "club": "Barcelona",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Inglaterra_Jugador_0",
+      "seleccion": "Inglaterra",
+      "posicion": "Delantero",
+      "edad": 20,
+      "club": "PSG",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Inglaterra_Jugador_1",
+      "seleccion": "Inglaterra",
+      "posicion": "Portero",
+      "edad": 26,
+      "club": "Bayern",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Inglaterra_Jugador_2",
+      "seleccion": "Inglaterra",
+      "posicion": "Portero",
+      "edad": 26,
+      "club": "Bayern",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Inglaterra_Jugador_3",
+      "seleccion": "Inglaterra",
+      "posicion": "Portero",
+      "edad": 20,
+      "club": "Barcelona",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Inglaterra_Jugador_4",
+      "seleccion": "Inglaterra",
+      "posicion": "Portero",
+      "edad": 20,
+      "club": "PSG",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Inglaterra_Jugador_5",
+      "seleccion": "Inglaterra",
+      "posicion": "Portero",
+      "edad": 18,
+      "club": "Chelsea",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Inglaterra_Jugador_6",
+      "seleccion": "Inglaterra",
+      "posicion": "Defensa",
+      "edad": 28,
+      "club": "Real Madrid",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Inglaterra_Jugador_7",
+      "seleccion": "Inglaterra",
+      "posicion": "Defensa",
+      "edad": 34,
+      "club": "Barcelona",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Inglaterra_Jugador_8",
+      "seleccion": "Inglaterra",
+      "posicion": "Defensa",
+      "edad": 19,
+      "club": "Chelsea",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Inglaterra_Jugador_9",
+      "seleccion": "Inglaterra",
+      "posicion": "Defensa",
+      "edad": 19,
+      "club": "Inter",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Holanda_Jugador_0",
+      "seleccion": "Holanda",
+      "posicion": "Portero",
+      "edad": 29,
+      "club": "Inter",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Holanda_Jugador_1",
+      "seleccion": "Holanda",
+      "posicion": "Mediocampista",
+      "edad": 19,
+      "club": "Chelsea",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Holanda_Jugador_2",
+      "seleccion": "Holanda",
+      "posicion": "Portero",
+      "edad": 30,
+      "club": "Chelsea",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Holanda_Jugador_3",
+      "seleccion": "Holanda",
+      "posicion": "Delantero",
+      "edad": 27,
+      "club": "Inter",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Holanda_Jugador_4",
+      "seleccion": "Holanda",
+      "posicion": "Mediocampista",
+      "edad": 27,
+      "club": "Chelsea",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Holanda_Jugador_5",
+      "seleccion": "Holanda",
+      "posicion": "Portero",
+      "edad": 31,
+      "club": "Bayern",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Holanda_Jugador_6",
+      "seleccion": "Holanda",
+      "posicion": "Mediocampista",
+      "edad": 30,
+      "club": "Real Madrid",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Holanda_Jugador_7",
+      "seleccion": "Holanda",
+      "posicion": "Delantero",
+      "edad": 25,
+      "club": "Bayern",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Holanda_Jugador_8",
+      "seleccion": "Holanda",
+      "posicion": "Defensa",
+      "edad": 35,
+      "club": "Inter",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Holanda_Jugador_9",
+      "seleccion": "Holanda",
+      "posicion": "Portero",
+      "edad": 29,
+      "club": "PSG",
+      "region": "Europa",
+      "fuente": "html"
+    },
+    {
+      "nombre": "Ecuador_Jugador_0",
+      "seleccion": "Ecuador",
+      "posicion": "Mediocampista",
+      "edad": 34,
+      "partidos": 62,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Ecuador_Jugador_1",
+      "seleccion": "Ecuador",
+      "posicion": "Mediocampista",
+      "edad": 23,
+      "partidos": 11,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Ecuador_Jugador_2",
+      "seleccion": "Ecuador",
+      "posicion": "Portero",
+      "edad": 23,
+      "partidos": 41,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Ecuador_Jugador_3",
+      "seleccion": "Ecuador",
+      "posicion": "Delantero",
+      "edad": 22,
+      "partidos": 17,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Ecuador_Jugador_4",
+      "seleccion": "Ecuador",
+      "posicion": "Delantero",
+      "edad": 27,
+      "partidos": 31,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Ecuador_Jugador_5",
+      "seleccion": "Ecuador",
+      "posicion": "Mediocampista",
+      "edad": 26,
+      "partidos": 84,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Ecuador_Jugador_6",
+      "seleccion": "Ecuador",
+      "posicion": "Defensa",
+      "edad": 28,
+      "partidos": 69,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Ecuador_Jugador_7",
+      "seleccion": "Ecuador",
+      "posicion": "Defensa",
+      "edad": 35,
+      "partidos": 63,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Ecuador_Jugador_8",
+      "seleccion": "Ecuador",
+      "posicion": "Portero",
+      "edad": 28,
+      "partidos": 4,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Ecuador_Jugador_9",
+      "seleccion": "Ecuador",
+      "posicion": "Delantero",
+      "edad": 33,
+      "partidos": 40,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Colombia_Jugador_0",
+      "seleccion": "Colombia",
+      "posicion": "Mediocampista",
+      "edad": 18,
+      "partidos": 4,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Colombia_Jugador_1",
+      "seleccion": "Colombia",
+      "posicion": "Delantero",
+      "edad": 18,
+      "partidos": 84,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Colombia_Jugador_2",
+      "seleccion": "Colombia",
+      "posicion": "Mediocampista",
+      "edad": 23,
+      "partidos": 0,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Colombia_Jugador_3",
+      "seleccion": "Colombia",
+      "posicion": "Defensa",
+      "edad": 20,
+      "partidos": 18,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Colombia_Jugador_4",
+      "seleccion": "Colombia",
+      "posicion": "Defensa",
+      "edad": 28,
+      "partidos": 55,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Colombia_Jugador_5",
+      "seleccion": "Colombia",
+      "posicion": "Delantero",
+      "edad": 34,
+      "partidos": 8,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Colombia_Jugador_6",
+      "seleccion": "Colombia",
+      "posicion": "Portero",
+      "edad": 30,
+      "partidos": 7,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Colombia_Jugador_7",
+      "seleccion": "Colombia",
+      "posicion": "Delantero",
+      "edad": 28,
+      "partidos": 92,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Colombia_Jugador_8",
+      "seleccion": "Colombia",
+      "posicion": "Delantero",
+      "edad": 22,
+      "partidos": 56,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Colombia_Jugador_9",
+      "seleccion": "Colombia",
+      "posicion": "Defensa",
+      "edad": 28,
+      "partidos": 50,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Argentina_Jugador_0",
+      "seleccion": "Argentina",
+      "posicion": "Portero",
+      "edad": 32,
+      "partidos": 29,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Argentina_Jugador_1",
+      "seleccion": "Argentina",
+      "posicion": "Portero",
+      "edad": 26,
+      "partidos": 52,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Argentina_Jugador_2",
+      "seleccion": "Argentina",
+      "posicion": "Portero",
+      "edad": 24,
+      "partidos": 62,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Argentina_Jugador_3",
+      "seleccion": "Argentina",
+      "posicion": "Portero",
+      "edad": 19,
+      "partidos": 19,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Argentina_Jugador_4",
+      "seleccion": "Argentina",
+      "posicion": "Defensa",
+      "edad": 30,
+      "partidos": 2,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Argentina_Jugador_5",
+      "seleccion": "Argentina",
+      "posicion": "Delantero",
+      "edad": 34,
+      "partidos": 86,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Argentina_Jugador_6",
+      "seleccion": "Argentina",
+      "posicion": "Portero",
+      "edad": 23,
+      "partidos": 92,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Argentina_Jugador_7",
+      "seleccion": "Argentina",
+      "posicion": "Delantero",
+      "edad": 28,
+      "partidos": 91,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Argentina_Jugador_8",
+      "seleccion": "Argentina",
+      "posicion": "Delantero",
+      "edad": 21,
+      "partidos": 78,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Argentina_Jugador_9",
+      "seleccion": "Argentina",
+      "posicion": "Portero",
+      "edad": 29,
+      "partidos": 78,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Brasil_Jugador_0",
+      "seleccion": "Brasil",
+      "posicion": "Portero",
+      "edad": 20,
+      "partidos": 83,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Brasil_Jugador_1",
+      "seleccion": "Brasil",
+      "posicion": "Portero",
+      "edad": 30,
+      "partidos": 63,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Brasil_Jugador_2",
+      "seleccion": "Brasil",
+      "posicion": "Portero",
+      "edad": 18,
+      "partidos": 0,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Brasil_Jugador_3",
+      "seleccion": "Brasil",
+      "posicion": "Portero",
+      "edad": 28,
+      "partidos": 10,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Brasil_Jugador_4",
+      "seleccion": "Brasil",
+      "posicion": "Delantero",
+      "edad": 20,
+      "partidos": 4,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Brasil_Jugador_5",
+      "seleccion": "Brasil",
+      "posicion": "Defensa",
+      "edad": 19,
+      "partidos": 70,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Brasil_Jugador_6",
+      "seleccion": "Brasil",
+      "posicion": "Defensa",
+      "edad": 32,
+      "partidos": 39,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Brasil_Jugador_7",
+      "seleccion": "Brasil",
+      "posicion": "Defensa",
+      "edad": 28,
+      "partidos": 81,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Brasil_Jugador_8",
+      "seleccion": "Brasil",
+      "posicion": "Defensa",
+      "edad": 30,
+      "partidos": 29,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "Brasil_Jugador_9",
+      "seleccion": "Brasil",
+      "posicion": "Defensa",
+      "edad": 35,
+      "partidos": 91,
+      "region": "Sudamérica",
+      "fuente": "csv"
+    },
+    {
+      "nombre": "EEUU_Jugador_0",
+      "seleccion": "EEUU",
+      "posicion": "Mediocampista",
+      "edad": 30,
+      "goles": 40,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "EEUU_Jugador_1",
+      "seleccion": "EEUU",
+      "posicion": "Defensa",
+      "edad": 35,
+      "goles": 47,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "EEUU_Jugador_2",
+      "seleccion": "EEUU",
+      "posicion": "Defensa",
+      "edad": 25,
+      "goles": 17,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "EEUU_Jugador_3",
+      "seleccion": "EEUU",
+      "posicion": "Delantero",
+      "edad": 24,
+      "goles": 22,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "EEUU_Jugador_4",
+      "seleccion": "EEUU",
+      "posicion": "Mediocampista",
+      "edad": 32,
+      "goles": 5,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "EEUU_Jugador_5",
+      "seleccion": "EEUU",
+      "posicion": "Mediocampista",
+      "edad": 30,
+      "goles": 43,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "EEUU_Jugador_6",
+      "seleccion": "EEUU",
+      "posicion": "Portero",
+      "edad": 32,
+      "goles": 40,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "EEUU_Jugador_7",
+      "seleccion": "EEUU",
+      "posicion": "Delantero",
+      "edad": 25,
+      "goles": 43,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "EEUU_Jugador_8",
+      "seleccion": "EEUU",
+      "posicion": "Defensa",
+      "edad": 18,
+      "goles": 50,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "EEUU_Jugador_9",
+      "seleccion": "EEUU",
+      "posicion": "Mediocampista",
+      "edad": 29,
+      "goles": 44,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "México_Jugador_0",
+      "seleccion": "México",
+      "posicion": "Defensa",
+      "edad": 23,
+      "goles": 23,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "México_Jugador_1",
+      "seleccion": "México",
+      "posicion": "Portero",
+      "edad": 33,
+      "goles": 20,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "México_Jugador_2",
+      "seleccion": "México",
+      "posicion": "Portero",
+      "edad": 31,
+      "goles": 1,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "México_Jugador_3",
+      "seleccion": "México",
+      "posicion": "Portero",
+      "edad": 28,
+      "goles": 16,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "México_Jugador_4",
+      "seleccion": "México",
+      "posicion": "Portero",
+      "edad": 20,
+      "goles": 20,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "México_Jugador_5",
+      "seleccion": "México",
+      "posicion": "Defensa",
+      "edad": 20,
+      "goles": 36,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "México_Jugador_6",
+      "seleccion": "México",
+      "posicion": "Mediocampista",
+      "edad": 24,
+      "goles": 8,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "México_Jugador_7",
+      "seleccion": "México",
+      "posicion": "Defensa",
+      "edad": 27,
+      "goles": 36,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "México_Jugador_8",
+      "seleccion": "México",
+      "posicion": "Delantero",
+      "edad": 21,
+      "goles": 7,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "México_Jugador_9",
+      "seleccion": "México",
+      "posicion": "Mediocampista",
+      "edad": 18,
+      "goles": 17,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Canada_Jugador_0",
+      "seleccion": "Canada",
+      "posicion": "Mediocampista",
+      "edad": 32,
+      "goles": 43,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Canada_Jugador_1",
+      "seleccion": "Canada",
+      "posicion": "Defensa",
+      "edad": 32,
+      "goles": 20,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Canada_Jugador_2",
+      "seleccion": "Canada",
+      "posicion": "Delantero",
+      "edad": 26,
+      "goles": 42,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Canada_Jugador_3",
+      "seleccion": "Canada",
+      "posicion": "Defensa",
+      "edad": 32,
+      "goles": 39,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Canada_Jugador_4",
+      "seleccion": "Canada",
+      "posicion": "Defensa",
+      "edad": 18,
+      "goles": 21,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Canada_Jugador_5",
+      "seleccion": "Canada",
+      "posicion": "Mediocampista",
+      "edad": 27,
+      "goles": 3,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Canada_Jugador_6",
+      "seleccion": "Canada",
+      "posicion": "Delantero",
+      "edad": 32,
+      "goles": 33,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Canada_Jugador_7",
+      "seleccion": "Canada",
+      "posicion": "Defensa",
+      "edad": 25,
+      "goles": 33,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Canada_Jugador_8",
+      "seleccion": "Canada",
+      "posicion": "Mediocampista",
+      "edad": 33,
+      "goles": 32,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Canada_Jugador_9",
+      "seleccion": "Canada",
+      "posicion": "Mediocampista",
+      "edad": 29,
+      "goles": 0,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Iran_Jugador_0",
+      "seleccion": "Iran",
+      "posicion": "Mediocampista",
+      "edad": 35,
+      "goles": 49,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Iran_Jugador_1",
+      "seleccion": "Iran",
+      "posicion": "Mediocampista",
+      "edad": 32,
+      "goles": 12,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Iran_Jugador_2",
+      "seleccion": "Iran",
+      "posicion": "Mediocampista",
+      "edad": 20,
+      "goles": 35,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Iran_Jugador_3",
+      "seleccion": "Iran",
+      "posicion": "Delantero",
+      "edad": 32,
+      "goles": 28,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Iran_Jugador_4",
+      "seleccion": "Iran",
+      "posicion": "Delantero",
+      "edad": 25,
+      "goles": 14,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Iran_Jugador_5",
+      "seleccion": "Iran",
+      "posicion": "Portero",
+      "edad": 24,
+      "goles": 8,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Iran_Jugador_6",
+      "seleccion": "Iran",
+      "posicion": "Mediocampista",
+      "edad": 30,
+      "goles": 47,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Iran_Jugador_7",
+      "seleccion": "Iran",
+      "posicion": "Defensa",
+      "edad": 24,
+      "goles": 41,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Iran_Jugador_8",
+      "seleccion": "Iran",
+      "posicion": "Delantero",
+      "edad": 27,
+      "goles": 28,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    },
+    {
+      "nombre": "Iran_Jugador_9",
+      "seleccion": "Iran",
+      "posicion": "Defensa",
+      "edad": 32,
+      "goles": 29,
+      "region": "Norteamérica/Asia",
+      "fuente": "pdf"
+    }
+  ]
+}
