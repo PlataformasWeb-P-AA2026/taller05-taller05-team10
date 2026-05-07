@@ -1,8 +1,7 @@
 import './style.css';
 import DataTable from 'datatables.net-dt';
 import 'datatables.net-dt/css/dataTables.dataTables.css';
-
-const BASE_URL = "http://localhost:5984/jugadores/_design/losjugadores/_view/";
+import { CONFIG } from './config.js';
 
 let tabla = null;
 
@@ -13,26 +12,44 @@ function parsearValor(valor) {
   return valor;
 }
 
-async function cargarDatos(vista = "por_club", filtro = "") {
+async function cargarDatos(vista = CONFIG.VISTAS.POR_CLUB, filtro = "") {
   try {
-    let url = `${BASE_URL}${vista}`;
+    let url = `${CONFIG.BASE_URL}${vista}`;
     const v = parsearValor(filtro);
 
     if (filtro !== "") {
       url += `?key=${encodeURIComponent(JSON.stringify(v))}`;
     }
 
-    const respuesta = await fetch(url);
-    if (!respuesta.ok) throw new Error("Error al consumir la API");
+    const options = {
+      method: 'GET',
+      headers: { 'Content-Type': 'application/json' }
+    };
+
+    // Solo agregar autenticación si existe
+    if (CONFIG.AUTH_HEADER) {
+      options.headers['Authorization'] = CONFIG.AUTH_HEADER;
+    }
+
+    const respuesta = await fetch(url, options);
+
+    if (!respuesta.ok) {
+      throw new Error(`Error ${respuesta.status}: ${respuesta.statusText}`);
+    }
 
     const json = await respuesta.json();
 
+    if (!json.rows || json.rows.length === 0) {
+      alert("⚠️ La vista no devolvió datos.");
+      return;
+    }
+
     const datos = json.rows.map(row => ({
-      criterio: row.key,
-      nombre: row.value.nombre ?? "",
-      seleccion: row.value.seleccion ?? "",
-      posicion: row.value.posicion ?? "",
-      edad: row.value.edad ?? ""
+      criterio: row.key ?? "",
+      nombre: row.value?.nombre ?? "",
+      seleccion: row.value?.seleccion ?? "",
+      posicion: row.value?.posicion ?? "",
+      edad: row.value?.edad ?? ""
     }));
 
     if (tabla) {
@@ -54,11 +71,15 @@ async function cargarDatos(vista = "por_club", filtro = "") {
         search: "Buscar:",
         lengthMenu: "Mostrar _MENU_ registros",
         info: "Mostrando _START_ a _END_ de _TOTAL_ registros",
+        infoEmpty: "No hay registros",
+        zeroRecords: "Sin resultados",
         paginate: { previous: "Anterior", next: "Siguiente" }
       }
     });
+
   } catch (error) {
-    console.error(error);
+    console.error("❌ Error:", error);
+    alert(error.message);
   }
 }
 
