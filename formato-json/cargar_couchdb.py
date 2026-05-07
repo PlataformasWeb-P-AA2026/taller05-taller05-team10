@@ -1,22 +1,12 @@
-"""
-cargar_couchdb.py
-1. Crea la BD 'jugadores'
-2. Carga mundial_2026.json
-3. Crea el design document 'losjugadores' con las 3 vistas
-"""
 import json
 import requests
 from requests.auth import HTTPBasicAuth
+from config import (
+    COUCHDB_URL, COUCHDB_USUARIO, COUCHDB_PASSWORD,
+    NOMBRE_BD, ARCHIVO_JSON_SALIDA, DESIGN_DOCUMENT_NAME
+)
 
-# === CONFIGURACIÓN ===
-COUCHDB_URL = "http://localhost:5984"
-USUARIO = "admin"           # ⚠️ Cambia por tu usuario
-PASSWORD = "admin"          # ⚠️ Cambia por tu contraseña
-NOMBRE_BD = "jugadores"
-ARCHIVO_JSON = "mundial_2026.json"
-
-auth = HTTPBasicAuth(USUARIO, PASSWORD)
-
+auth = HTTPBasicAuth(COUCHDB_USUARIO, COUCHDB_PASSWORD)
 
 def crear_base_datos():
     url = f"{COUCHDB_URL}/{NOMBRE_BD}"
@@ -27,19 +17,15 @@ def crear_base_datos():
         print(f"ℹ️  BD '{NOMBRE_BD}' ya existe.")
     else:
         print(f"⚠️  {r.status_code}: {r.text}")
-        r.raise_for_status()
-
 
 def cargar_documentos():
-    with open(ARCHIVO_JSON, "r", encoding="utf-8") as f:
+    with open(ARCHIVO_JSON_SALIDA, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     url = f"{COUCHDB_URL}/{NOMBRE_BD}/_bulk_docs"
-    r = requests.post(
-        url, auth=auth,
-        headers={"Content-Type": "application/json"},
-        data=json.dumps(data, ensure_ascii=False).encode("utf-8")
-    )
+    r = requests.post(url, auth=auth,
+                      headers={"Content-Type": "application/json"},
+                      data=json.dumps(data, ensure_ascii=False).encode("utf-8"))
     r.raise_for_status()
 
     resultado = r.json()
@@ -49,59 +35,35 @@ def cargar_documentos():
     if fallidos:
         print(f"⚠️  Errores: {fallidos}")
 
-
 def crear_vistas():
     design_doc = {
-        "_id": "_design/losjugadores",
+        "_id": f"_design/{DESIGN_DOCUMENT_NAME}",
         "language": "javascript",
         "views": {
             "por_club": {
-                "map": (
-                    "function(doc) {\n"
-                    "  if (doc.club_actual) {\n"
-                    "    emit(doc.club_actual, doc);\n"
-                    "  }\n"
-                    "}"
-                )
+                "map": "function(doc) { if (doc.club_actual) { emit(doc.club_actual, doc); } }"
             },
             "por_goles": {
-                "map": (
-                    "function(doc) {\n"
-                    "  if (doc.goles) {\n"
-                    "    emit(doc.goles, doc);\n"
-                    "  }\n"
-                    "}"
-                )
+                "map": "function(doc) { if (doc.goles) { emit(doc.goles, doc); } }"
             },
             "por_partidos": {
-                "map": (
-                    "function(doc) {\n"
-                    "  if (doc.partidos) {\n"
-                    "    emit(doc.partidos, doc);\n"
-                    "  }\n"
-                    "}"
-                )
+                "map": "function(doc) { if (doc.partidos) { emit(doc.partidos, doc); } }"
             }
         }
     }
 
-    url = f"{COUCHDB_URL}/{NOMBRE_BD}/_design/losjugadores"
-
+    url = f"{COUCHDB_URL}/{NOMBRE_BD}/_design/{DESIGN_DOCUMENT_NAME}"
     existente = requests.get(url, auth=auth)
     if existente.status_code == 200:
         design_doc["_rev"] = existente.json()["_rev"]
-        print("ℹ️  Design document existente, se actualizará.")
 
-    r = requests.put(
-        url, auth=auth,
-        headers={"Content-Type": "application/json"},
-        data=json.dumps(design_doc)
-    )
+    r = requests.put(url, auth=auth,
+                     headers={"Content-Type": "application/json"},
+                     data=json.dumps(design_doc))
     if r.status_code in (201, 202):
-        print("✅ Vistas 'por_club', 'por_goles', 'por_partidos' creadas.")
+        print("✅ Vistas creadas.")
     else:
         print(f"⚠️  {r.status_code}: {r.text}")
-
 
 if __name__ == "__main__":
     crear_base_datos()
